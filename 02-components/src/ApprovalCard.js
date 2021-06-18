@@ -4,7 +4,7 @@ const ApprovalCard = (props) => {
   return (
     <div className="ui card">
       <div className="content">
-        Are you sure?
+        {props.children} {/* props.children contains the tags of child components! */}
       </div>
       <div className="extra content">
         <div className="ui two buttons">
